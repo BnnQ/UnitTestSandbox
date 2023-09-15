@@ -30,13 +30,13 @@
     </ItemGroup>
 
 
+    
+    <ItemGroup>
+        <Views Include="$(ProjectDir)../Sandbox/Views/*.*" />
+    </ItemGroup>
 
-
-
-
-    <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-        <Exec Condition=" '$(OS)' == 'Windows_NT' " Command="xcopy /Y /S &quot;$(ProjectDir)..\Sandbox\Views\*.*&quot; &quot;$(TargetDir)Views\&quot;" />
-        <Exec Condition=" '$(OS)' != 'Windows_NT' " Command="cp -r &quot;$(ProjectDir)../Sandbox/Views/*&quot; &quot;$(TargetDir)Views/&quot;" />
+    <Target Name="CopyViews" BeforeTargets="Build">
+        <Copy SourceFiles="@(Views)" DestinationFolder="$(TargetDir)Views" />
     </Target>
 
 </Project>

@@ -33,7 +33,7 @@ public class UnitTest1
     [Fact]
     public void GetNumberAction_ReturnsNumber()
     {
-        var controller = new HomeController(new MockInvalidNumberService());
+        var controller = new HomeController(new MockNumberService());
         var number = Assert.IsType<int>(Assert.IsType<OkObjectResult>(controller.GetNumber()).Value);
 
         Assert.Equal(5, number);
