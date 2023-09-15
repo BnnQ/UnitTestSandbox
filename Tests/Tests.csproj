@@ -36,7 +36,7 @@
 
     <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
         <Exec Condition=" '$(OS)' == 'Windows_NT' " Command="xcopy /Y /S &quot;$(ProjectDir)..\Sandbox\Views\*.*&quot; &quot;$(TargetDir)Views\&quot;" />
-        <Exec Condition=" '$(OS)' != 'Windows_NT' " Command="cp -r &quot;$(ProjectDir)../Sandbox/Views/*.*&quot; &quot;$(TargetDir)Views/&quot;" />
+        <Exec Condition=" '$(OS)' != 'Windows_NT' " Command="cp -r &quot;$(ProjectDir)../Sandbox/Views/*&quot; &quot;$(TargetDir)Views/&quot;" />
     </Target>
 
 </Project>
