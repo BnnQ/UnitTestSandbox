@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9c5f1a2e_002Da0b1_002D4a09_002Db459_002D2c6e662320bc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GreetingAction_ReturnsViewWithHelloMessage" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::47470C34-86B2-49C2-8972-ED9629F251F5::net7.0::Tests.UnitTest1.GreetingAction_ReturnsViewWithHelloMessage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::47470C34-86B2-49C2-8972-ED9629F251F5::net7.0::Tests.UnitTest1.GetNumberAction_ReturnsNumber&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
